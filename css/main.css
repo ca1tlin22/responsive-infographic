@@ -48,15 +48,25 @@ html {
   width: 500.11px;
 }
 
+.lollipop svg:hover {
+  width: 700px;
+}
+
 .info {
   position: absolute;
   top: 25px;
   left: 15px;
   z-index: 1;
+
+  transition: all 100ms ease-in-out;
 }
 
 .info svg {
   width: 910.368px;
+}
+
+.info svg:hover {
+  width: 1183.4784px;
 }
 
 .balloon {
@@ -64,8 +74,25 @@ html {
   top: 345px;
   left: -160px;
   z-index: 2;
+
+  transition: all 100ms ease-in-out;
 }
 
 .balloon svg {
   width: 672.624px;
+}
+
+.balloon svg:hover {
+  width: 874.4112px;
+}
+
+.balloon:hover {
+  animation: rotate-page 250ms linear infinite;
+}
+
+@keyframes rotate-page {
+
+  0% {rotate(0); }
+  100% {rotate(15deg); }
+
 }
