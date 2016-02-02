@@ -18,3 +18,79 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.st0 {
+  fill:#F8DA9A;
+}
+
+.st1 {
+  fill:none;
+  stroke:#F0B61C;
+  stroke-width:0.9432;
+  stroke-miterlimit:10;
+}
+
+.st2 {
+  fill:#F0B61C;
+}
+
+.st3 {
+  fill:#EB5A48;
+}
+
+.st4 {
+  fill:#F48B20;
+}
+
+.st5 {
+  fill:#4E8796;
+}
+
+.st6 {
+  fill:#86CBD2;
+}
+
+.st7 {
+  fill:#0E3A59;
+}
+
+.st8 {
+  fill:#F5CA6A;
+}
+
+.st9 {
+  fill:#FFFFFF;
+}
+
+.st10 {
+  fill:#C3E6E1;
+}
+
+.st11 {
+  fill:none;
+}
+
+.st12 {
+  fill:#DEF1EE;
+}
+
+.st13 {
+  fill:none;
+  stroke:#86CBD2;
+  stroke-width:0.8203;
+  stroke-miterlimit:10;
+}
+
+.st14 {
+  fill:none;
+  stroke:#0E3A59;
+  stroke-width:1.088;
+  stroke-miterlimit:10;
+}
+
+.st15 {
+  fill:none;
+  stroke:#F48B20;
+  stroke-width:0.9817;
+  stroke-miterlimit:10;
+}
