@@ -23,8 +23,33 @@ html {
   width: 100%;
   margin: 0 auto;
   max-width: 630px;
+  position: relative;
+}
+
+.ticket {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+  z-index: 3;
 }
 
 .lollipop {
-  
+  position: absolute;
+  top: 245px;
+  left: 110px;
+  z-index: 4;
+}
+
+.info {
+  position: absolute;
+  top: 50px;
+  left: 215px;
+  z-index: 1;
+}
+
+.balloon {
+  position: absolute;
+  top: 275px;
+  left: 90px;
+  z-index: 2;
 }
