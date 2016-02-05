@@ -29,7 +29,7 @@ html {
 .ticket {
   position: absolute;
   top: 100px;
-  left: -180px;
+  left: -250px;
   z-index: 3;
 }
 
@@ -42,7 +42,7 @@ html {
 }
 
 .ticket:hover {
-  animation: wobble 1s 6 alternate;
+  animation: wobble 300ms 6 alternate ease-in-out;
   z-index: 5;
   top: 50px;
   left: -350px;
