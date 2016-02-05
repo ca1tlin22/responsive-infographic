@@ -64,6 +64,7 @@ html {
 
 .lollipop:hover {
   transform: rotate(13deg);
+  left: -300px;
 }
 
 .lollipop svg {
@@ -71,7 +72,7 @@ html {
 }
 
 .lollipop svg:hover {
-  width: 700px;
+  width: 910px;
 }
 
 .info {
