@@ -37,6 +37,20 @@ html {
   width: 756.72px;
 }
 
+.ticket:hover {
+  animation: wobble 2s 3;
+  z-index: 5;
+}
+
+@keyframes wobble{
+
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(20deg); }
+  50% { transform: rotate(-20deg); }
+  100% { transform: rotate(0deg); }
+
+}
+
 .lollipop {
   position: absolute;
   top: 315px;
