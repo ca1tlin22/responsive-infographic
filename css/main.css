@@ -37,17 +37,21 @@ html {
   width: 756.72px;
 }
 
+.ticket svg:hover {
+  width: 983.736px;
+}
+
 .ticket:hover {
-  animation: wobble 2s 3;
+  animation: wobble 1s 6 alternate;
   z-index: 5;
+  top: 50px;
+  left: -350px;
 }
 
 @keyframes wobble{
 
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(20deg); }
-  50% { transform: rotate(-20deg); }
-  100% { transform: rotate(0deg); }
+  0% { transform: rotate(-20deg); }
+  100% { transform: rotate(20deg); }
 
 }
 
@@ -56,6 +60,10 @@ html {
   top: 315px;
   left: -145px;
   z-index: 4;
+}
+
+.lollipop:hover {
+  transform: rotate(13deg);
 }
 
 .lollipop svg {
@@ -85,6 +93,11 @@ html {
   transition: all 50ms ease-in-out;
 }
 
+.info:hover {
+  left: -250px;
+  top: -50px;
+}
+
 .balloon {
   position: absolute;
   top: 345px;
@@ -102,6 +115,11 @@ html {
   width: 874.4112px;
   transform: rotate(13deg);
   transition: all 50ms ease-in-out;
+}
+
+.balloon:hover {
+  left: -80px;
+  top: 100px;
 }
 
 .balloon:hover, .info:hover {
