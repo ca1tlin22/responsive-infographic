@@ -11,8 +11,8 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: 'Amatic SC', serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Amatic SC", serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -48,9 +48,10 @@ html {
   left: -350px;
 }
 
-@keyframes wobble{
+@keyframes wobble {
 
   0% { transform: rotate(-20deg); }
+
   100% { transform: rotate(20deg); }
 
 }
