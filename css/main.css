@@ -20,110 +20,93 @@ html {
 }
 
 .elements {
-  width: 100%;
   margin: 0 auto;
-  max-width: 630px;
+  width: 100%;
   position: relative;
 }
 
-.ticket {
-  position: absolute;
-  top: 100px;
-  left: -300px;
-  z-index: 3;
-}
-
 .ticket svg {
-  width: 756.72px;
-}
-
-.ticket svg:hover {
-  width: 983.736px;
-}
-
-.ticket:hover {
-  animation: wobble 300ms 6 alternate ease-in-out;
-  z-index: 5;
-  top: 50px;
-  left: -350px;
-}
-
-@keyframes wobble {
-
-  0% { transform: rotate(-20deg); }
-
-  100% { transform: rotate(20deg); }
-
-}
-
-.lollipop {
+  width: 100%;
   position: absolute;
-  top: 315px;
-  left: -145px;
-  z-index: 4;
-}
-
-.lollipop:hover {
-  transform: rotate(13deg);
-  left: -300px;
+  z-index: 5;
+  transform: rotate(-10deg);
 }
 
 .lollipop svg {
-  width: 500.11px;
-}
-
-.lollipop svg:hover {
-  width: 910px;
-}
-
-.info {
+  width: 100%;
   position: absolute;
-  top: 25px;
-  left: 15px;
-  z-index: 1;
-
-  transition: all 50ms ease-in-out;
+  z-index: 4;
 }
 
-.info svg {
-  width: 910.368px;
-}
-
-.info svg:hover {
-  width: 1183.4784px;
-  transform: rotate(-19deg);
-  transition: all 50ms ease-in-out;
-}
-
-.info:hover {
-  left: -250px;
-  top: -50px;
-}
-
-.balloon {
+.home svg {
+  width: 100%;
   position: absolute;
-  top: 345px;
-  left: -160px;
-  z-index: 2;
-
-  transition: all 50ms ease-in-out;
+  top: 55px;
 }
 
-.balloon svg {
-  width: 672.624px;
+.versus svg {
+  width: 100%;
+  position: absolute;
 }
 
-.balloon svg:hover {
-  width: 874.4112px;
-  transform: rotate(13deg);
-  transition: all 50ms ease-in-out;
+.numbers svg {
+  width: 100%;
+  position: absolute;
+  top: 22px;
 }
 
-.balloon:hover {
-  left: -80px;
-  top: 100px;
+.tick-pop svg{
+  top: 175px;
 }
 
-.balloon:hover, .info:hover {
+.versus svg:hover, .numbers svg:hover, .home svg:hover, .lollipop svg:hover {
   z-index: 5;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .elements {
+    width:70%;
+  }
+
+  .tick-pop svg {
+    top: 200px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .elements {
+    width: 60%;
+  }
+
+  .tick-pop svg {
+    top: 260px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .elements {
+    width: 50%;
+  }
+
+  .tick-pop svg{
+    top: 305px;
+  }
+
+}
+
+@media only screen and (min-width: 145em) {
+
+  .elements {
+    width: 40%;
+  }
+
+  .tick-pop svg{
+    top: 500px;
+  }
+
 }
