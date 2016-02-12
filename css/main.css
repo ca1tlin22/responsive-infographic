@@ -32,6 +32,18 @@ html {
   transform: rotate(-10deg);
 }
 
+.ticket svg:hover {
+  animation: wobble 300ms 6 alternate ease-in-out;
+}
+
+@keyframes wobble {
+
+  0% { transform: rotate(-20deg); }
+
+  100% { transform: rotate(20deg); }
+
+}
+
 .lollipop svg {
   width: 100%;
   position: absolute;
@@ -59,7 +71,7 @@ html {
   top: 175px;
 }
 
-.versus svg:hover, .numbers svg:hover, .home svg:hover, .lollipop svg:hover {
+.versus svg:hover, .numbers svg:hover, .lollipop svg:hover {
   z-index: 5;
 }
 
