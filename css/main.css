@@ -67,7 +67,7 @@ html {
   top: 22px;
 }
 
-.tick-pop svg{
+.tick-pop svg {
   top: 175px;
 }
 
@@ -78,7 +78,7 @@ html {
 @media only screen and (min-width: 38em) {
 
   .elements {
-    width:70%;
+    width: 70%;
   }
 
   .tick-pop svg {
@@ -105,7 +105,7 @@ html {
     width: 50%;
   }
 
-  .tick-pop svg{
+  .tick-pop svg {
     top: 305px;
   }
 
@@ -117,7 +117,7 @@ html {
     width: 40%;
   }
 
-  .tick-pop svg{
+  .tick-pop svg {
     top: 500px;
   }
 
